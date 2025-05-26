@@ -1,0 +1,59 @@
+
+body {
+	background-image: url(bg.jpg);
+	background-size: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+#sp {
+	border: solid;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	height: 2vw;
+	margin: 0 auto;
+	padding: 5px;
+	gap: 15px;
+	background-color: white;
+}
+
+#sp button {
+	width: 30%;
+	border-radius: 15px;
+}
+
+#inpt {
+	border-radius: 15px;
+	width: 40%;
+}
+
+#tlist button {
+	border-radius: 15px;
+	color: white;
+	padding: 5px;
+
+}
+
+.task {
+	border: solid;
+	border-color: black;
+	border-radius: 15px;
+	background-color: rgba(66, 93, 216, 0.51);
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 15px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	white-space: normal;
+}
+
+#comp {
+	background-color: green;
+}
+
+#del {
+	background-color: red;
+}
